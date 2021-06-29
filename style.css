@@ -1,0 +1,19 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    width: 75%;
+    border-spacing: 5px;
+}
+td, th{
+    border: 2px solid gainsboro;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: gainsboro;
+    
+}
+th{
+    text-align: center;
+}
