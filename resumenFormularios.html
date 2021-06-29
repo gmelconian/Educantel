@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/action_page.jsp" method="GET">
+        Nombre:<br>
+        <input type="text" name="firstname"><br>
+        Apellido:<br>
+        <input type="text" name="lastname"><br>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="Masculino" checked>Masculino
+        <input type="radio" name="sexo" value="Femenino">Minita<br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <form action="/action_page.jsp" method="POST">
+        Nombre:<br>
+        <input type="text" name="firstname"><br>
+        Apellido:<br>
+        <input type="text" name="lastname"><br>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="Masculino" checked>Masculino
+        <input type="radio" name="sexo" value="Femenino">Minita<br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <!--El elemento <fieldset> se utiliza para agrupar datos relacionados en un formulario.
+                        El elemento <legend> define una leyenda para el elemento <fieldset>.-->
+            <legend>Información personal:</legend>
+            Nombre:<br>
+            <input type="text" name="nombre" value="John"><br>
+            Apellido:<br>
+            <input type="text" name="apellido" value="Lennon"><br><br>
+            <input type="submit" value="Aceptar">
+        </fieldset>
+    </form>
+
+    <h2>Lista de atributos</h2>
+    <img src="https://educanet.antel.com.uy/pluginfile.php/25193/mod_page/content/6/Microsoft%20Excel%20-%20Libro1.jpg">
+
+    <pre>
+input type = "text" define un campo de entrada de texto de una sola línea
+
+input type = "password" define un campo de contraseña, el cual muestra caracteres ocultos
+
+input type = "submit" define un botón para enviar datos de formulario a un manejador de formularios
+
+input type = "radio" define un radio button que permiten que el usuario seleccione una de tantas opciones.
+
+input type = "checkbox" define una casilla de verificación: permiten a un usuario seleccionar opciones CERO o MÁS de un número limitado de opciones
+
+input type = "button" define un botón, que podrá llamar a alguna acción.
+</pre>
+
+    <h2>El elemento select</h2>
+
+    <select name="autos">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br>
+
+    <textarea name="mensaje" rows="10" cols="30">
+        El atributo rows especifica el número visible de líneas en un área de texto.
+
+        El atributo cols especifica el ancho visible de un área de texto.
+    </textarea>
+    <h2>Elemento button</h2>
+    <button type="button" onclick="alert('Hello World!')">¡Haz click en mi!</button>
+
+
+    <h2>Elemento HTML 5 DATALIST</h2>
+    <form action="/action_page.php">
+        <input list="exploradores">
+        <datalist id="exploradores">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
+
+
+</body>
+
+</html>
