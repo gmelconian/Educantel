@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea 5</title>
+</head>
+
+<body>
+    <div style="background-color:lightgrey; width: fit-content; height:fit-content; position:absolute;">
+        <form action="/handler_page.php" method="POST">
+            Nombre:<br>
+            <input type="text" name="nombre"><br>
+            Apellido:<br>
+            <input type="text" name="apellido"><br>
+            Sexo:<br>
+            <input type="radio" name="sexo" value="Masculino" checked>Masculino<br>
+            <input type="radio" name="sexo" value="Femenino">Femenino<br><br>
+
+            <legend>Departamentos:</legend>
+            <input list="Departamentos">
+            <datalist id="Departamentos">
+                <option value="Artigas">
+                <option value="Montevideo">
+                <option value="Canelones">
+                <option value="Maldonado">
+                <option value="Rocha">
+                <option value="Treinta y Tres">
+                <option value="Cerro Largo">
+                <option value="Rivera">
+                <option value="Salto">
+                <option value="Paysandu">
+                <option value="Rio Negro">
+                <option value="Soriano">
+                <option value="Colonia">
+                <option value="San Jose">
+                <option value="Flores">
+                <option value="Florida">
+                <option value="Durazno">
+                <option value="Tacuarembo">
+                <option value="Lavalleja">
+            </datalist>
+            <br>
+
+            <legend>Mensaje:</legend>
+            <textarea name="no_name" rows="10" cols="30" style="resize: none;">
+            </textarea>
+            <br><br>
+
+            <input type="submit" onclick="alert('Formulario HTML5')" value="Click aquí">
+        </form>
+
+    </div>
+</body>
+</html>
