@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://iyanovich.files.wordpress.com/2010/01/simple-blue-ii.jpg');
+    font-family: 'Segoe UI';
+}
+
+.tab_phone .cab td {
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.tab_phone .cabeca {
+    background: #1c1c1a !important;
+}
+
+.tab_phone td {
+    background: #fff;
+    border: 1px solid #fefefe;
+    padding: 5px;
+}
+
+.tab_phone, .tab_compara {
+    width: 100%;
+    display: table;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
