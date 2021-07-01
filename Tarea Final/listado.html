@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listado de precios</title>
+    <style type="text/css">
+        body {
+            background-image: url('https://iyanovich.files.wordpress.com/2010/01/simple-blue-ii.jpg');
+            font-family: 'Segoe UI';
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #556B2F;
+            text-align: center;
+            padding: 5px;
+        }
+
+        tr:nth-child(odd) {
+            background: #3CB371;
+            color: #000000;
+        }
+
+        tr:nth-child(even) {
+            background: #66CDAA;
+            color: #000000;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1 style="color: white; text-align: center;">Listado de precios</h1>
+
+    <table>
+        <tr>
+            <th>Modelo</th>
+            <th>Marca</th>
+            <th>Precio (U$S)</th>
+        </tr>
+        <tr>
+            <td>iPhone 6s</td>
+            <td>Apple</td>
+            <td>899</td>
+        </tr>
+        <tr>
+            <td>Samsung Grand Prime</td>
+            <td>Samsung</td>
+            <td>799</td>
+        </tr>
+        <tr>
+            <td>Huawei P8 Lite</td>
+            <td>Huawei</td>
+            <td>699</td>
+        </tr>
+    </table>
+    <legend>*Articulos disponibles<strong> hasta agotar stock</strong>, en todas las casas de fonotienda.</legend>
+
+
 </body>
+
 </html>
