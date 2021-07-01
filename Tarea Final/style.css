@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: black;
+}
+
+header {
+    background-image: url('https://iyanovich.files.wordpress.com/2010/01/simple-blue-ii.jpg');
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
